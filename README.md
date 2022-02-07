@@ -1,5 +1,5 @@
 # Web3QueryContractPython
-Simple example of how to dynamically query read/write functions for a given Smart Contract using just the contract address (no ABI necessary) using Web3 in Python.
+Simple example of how to dynamically query read/write functions for a given Smart Contract using just the contract address (no ABI necessary) using Web3 in Python. Will dynamically retrieve the contract's ABI through etherscan.  
 
 1. Create Python virtual environment (optional)  
 `python -m venv venv`  
