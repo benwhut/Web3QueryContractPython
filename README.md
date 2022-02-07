@@ -1,7 +1,7 @@
 # QuerySmartContractFunctions
-Simple example of how to dynamically query read/write functions for a given Smart Contract using Web3 in Python
+Simple example of how to dynamically query read/write functions for a given Smart Contract with just the contract address (no ABI necessary) using Web3 in Python.
 
-1. Create virtual environment (optional)  
+1. Create Python virtual environment (optional)  
 `python -m venv venv`  
 `source venv/bin/activate`
 
@@ -13,6 +13,7 @@ This is required to query the Ethereum blockchain
 `infura_url = "https://mainnet.infura.io/v3/..."`
 
 4. Add the address of the Smart Contract you want to query  
+You can get this from etherscan.io
 `address = web3.toChecksumAddress("0x6...")`
 
 5. run queryFunctions.py  
