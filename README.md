@@ -10,11 +10,11 @@ Simple example of how to dynamically query read/write functions for a given Smar
 
 3. Add your Ethereum endpoint URL using Infura or equivalent  
 This is required to query the Ethereum blockchain  
-`infura_url = "https://mainnet.infura.io/v3/..."`
+`infura_url = "https://mainnet.infura.io/v3/00000000000000000000000"`
 
 4. Add the address of the Smart Contract you want to query  
 You can get this from etherscan.io
-`address = web3.toChecksumAddress("0x6...")`
+`address = web3.toChecksumAddress("0x00000000000000000000000")`
 
 5. run queryFunctions.py  
 `python3 queryFunctions.py`  
