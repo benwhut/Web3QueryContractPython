@@ -20,7 +20,7 @@ You can get this from etherscan.io
 `python3 queryFunctions.py`  
 
 
-Output should be something similar to this:  
+Output should be similar to this:  
 
 ```
 READ CONTRACT FUNCTIONS:
