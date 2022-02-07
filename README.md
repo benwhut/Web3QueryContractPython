@@ -13,7 +13,7 @@ This is required to query the Ethereum blockchain
 `infura_url = "https://mainnet.infura.io/v3/00000000000000000000000"`
 
 4. Add the address of the Smart Contract you want to query  
-You can get this from etherscan.io
+You can get this from etherscan.io  
 `address = web3.toChecksumAddress("0x00000000000000000000000")`
 
 5. run web3QueryContract.py  
