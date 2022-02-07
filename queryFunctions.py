@@ -17,11 +17,11 @@ def fetch_abi(address):
 
 def __main__():
     # Enter your own Ethereum blockchain endpoint (Infura or equivalent)
-    infura_url = "https://mainnet.infura.io/v3/..."
+    infura_url = "https://mainnet.infura.io/v3/00000000000000000000000"
     web3 = Web3(Web3.HTTPProvider(infura_url))
 
     # Enter address of the Smart Contract
-    address = web3.toChecksumAddress("0x6...")
+    address = web3.toChecksumAddress("0x00000000000000000000000")
     abi = fetch_abi(address)
     contract = web3.eth.contract(address=address, abi=abi)
 
