@@ -1,5 +1,5 @@
 # QuerySmartContractFunctions
-Dynamically query read/write functions for a given Smart Contract using Web3 in Python
+Simple example of how to dynamically query read/write functions for a given Smart Contract using Web3 in Python
 
 1. Create virtual environment (optional)  
 `python -m venv venv`  
@@ -47,3 +47,6 @@ transferFrom
 transferOwnership
 updateBaseTokenURI
 ```
+
+Questions?  
+benwhut@gmail.com
