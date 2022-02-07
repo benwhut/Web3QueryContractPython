@@ -2,8 +2,8 @@
 Dynamically query read/write functions for a given Smart Contract using Web3 in Python
 
 1. Create virtual environment (optional)
-  `python -m venv venv`
-  `source venv/bin/activate`
+    `python -m venv venv`
+    `source venv/bin/activate`
 
 2. Install web3.py
   `pip install web3`
