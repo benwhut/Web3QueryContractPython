@@ -16,8 +16,8 @@ This is required to query the Ethereum blockchain
 You can get this from etherscan.io
 `address = web3.toChecksumAddress("0x00000000000000000000000")`
 
-5. run queryFunctions.py  
-`python3 queryFunctions.py`  
+5. run web3QueryContract.py  
+`python3 web3QueryContract.py`  
 
 
 Output should be similar to this:  
