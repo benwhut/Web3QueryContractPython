@@ -2,22 +2,23 @@
 Dynamically query read/write functions for a given Smart Contract using Web3 in Python
 
 1. Create virtual environment (optional)
-python -m venv venv
+`python -m venv venv`
 
 2. Install web3.py
-pip install web3
+`pip install web3`
 
 3. Add your Ethereum blockchain endpoint using Infura or equivalent
-infura_url = "https://mainnet.infura.io/v3/..."
+`infura_url = "https://mainnet.infura.io/v3/..."`
 
 4. Add the address of the Smart Contract you want to query
-address = web3.toChecksumAddress("0x6...")
+`address = web3.toChecksumAddress("0x6...")`
 
 5. run queryFunctions.py
-python3 queryFunctions.py
+`python3 queryFunctions.py`
 
 Output should be something similar to this:
 
+```
 READ CONTRACT FUNCTIONS:
 contractURI: https://nft.syn.city/meta/SYNP/
 maxTokenId: 888
@@ -44,3 +45,4 @@ setValidator
 transferFrom
 transferOwnership
 updateBaseTokenURI
+```
