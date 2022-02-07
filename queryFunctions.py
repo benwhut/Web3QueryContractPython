@@ -46,7 +46,6 @@ def __main__():
             if abi_output[i]["stateMutability"] != "view":
                 print(abi_output[i]["name"])
 
-
     # Call individual functions and print them
     #name = contract.functions.name().call()
     #symbol = contract.functions.symbol().call()
