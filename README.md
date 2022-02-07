@@ -18,6 +18,7 @@ This is required to query the Ethereum blockchain
 5. run queryFunctions.py  
 `python3 queryFunctions.py`  
 
+
 Output should be something similar to this:  
 
 ```
