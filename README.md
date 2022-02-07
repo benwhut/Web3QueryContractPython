@@ -13,8 +13,34 @@ infura_url = "https://mainnet.infura.io/v3/..."
 4. Add the address of the Smart Contract you want to query
 address = web3.toChecksumAddress("0x6...")
 
-5. run queryFunc.py
-python3 queryFunc.py
+5. run queryFunctions.py
+python3 queryFunctions.py
 
+Output should be something similar to this:
 
+READ CONTRACT FUNCTIONS:
+contractURI: https://nft.syn.city/meta/SYNP/
+maxTokenId: 888
+name: Syn City Genesis Passes
+nextTokenId: 409
+owner: 0x41BDD852d3618Dc5D6338279F373Bf7935dc0242
+symbol: SYNP
+tokenURIHasBeenFrozen: False
+validator: 0xc626be886d4b7D09898152c61959A9a898a78D6f
 
+WRITE CONTRACT FUNCTIONS
+approve
+claimFreeToken
+encodeForSignature
+freezeBaseTokenURI
+giveawayToken
+renounceOwnership
+revokeOperator
+safeTransferFrom
+safeTransferFrom
+setApprovalForAll
+setOperators
+setValidator
+transferFrom
+transferOwnership
+updateBaseTokenURI
