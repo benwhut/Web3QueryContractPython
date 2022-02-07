@@ -51,7 +51,7 @@ transferOwnership
 updateBaseTokenURI
 ```
 
-There are also some examples of how to call individual functions directly using the call() function (commented out by default).
+There are also some examples of how to call individual functions directly using Web3's call() function (commented out by default).
 
 Questions?  
 benwhut@gmail.com
